@@ -1,0 +1,38 @@
+.logo4, .logo5,.logo6,.tweetCart_svg{
+    width: 40px;
+    height: 40px;
+}
+.logo4:hover, .logo5:hover,.logo6:hover,.tweetCart_svg:hover{
+    fill: #6b792fb0;
+    transition: .2s
+}   
+
+.contactContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contactContainer>button{
+    padding: 1px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: larger;
+    width: 120px;
+    
+}
+
+.contactContainer>button:hover{
+    background-color:rgba(255, 243, 203, 0.322) ;
+    cursor: pointer;
+    /* width: 140px;
+    height: 60px; */
+    /* margin-top: 48px; */
+    /* margin-left: 265px; */
+    font-size: larger;
+}

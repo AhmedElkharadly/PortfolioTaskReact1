@@ -1,0 +1,8 @@
+.portfolio{
+    padding: 80px;
+}
+
+.cardsGrid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}

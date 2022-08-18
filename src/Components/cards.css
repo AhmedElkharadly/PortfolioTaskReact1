@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+  background-color: rgb(51, 51, 51);
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.178);
+  border-radius: 40px;
+}
+
+.card > h3 {
+  border-bottom: 1px solid;
+}
+
+.card:hover {
+  color: rgb(226, 212, 80);
+  transition: 0.5s;
+}

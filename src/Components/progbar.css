@@ -1,0 +1,15 @@
+.fakeProgBar{
+    width: 50%;
+    text-align: center;
+    height: 15%;
+    margin: 10px;
+}
+.fakeProgbar{
+    width: 30px;
+    background-color: black;
+    height: 10%;
+}
+
+hr{
+    color: transparent;
+}

@@ -1,0 +1,45 @@
+.aboutme{
+    display: grid;
+    grid-template-columns: 3fr  9fr;
+    grid-template-rows: auto auto auto;
+    height: 45vh;
+    margin-top: -70px;
+    padding-right: 25px;
+    row-gap: 5px;
+    margin-bottom: 20px;
+}
+.aboutme>button{
+    background-color: rgb(26, 25, 25);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 17px;
+    grid-column: 2;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutme>button:hover{
+    cursor: pointer;
+    background-color: rgb(70, 68, 68);
+}
+
+
+.about_hid{
+    text-align: center  ;
+    margin-top: 35px;    
+    letter-spacing: 1.5px;
+    font-size: 45px ;
+}
+.about_parag{
+    letter-spacing: 1.9px;
+}
+
+.downloadIC{
+    width: 10px !important;
+    height: 10px !important;
+    
+
+}
